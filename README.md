@@ -13,7 +13,7 @@ Retos personal con miras a seguir mejorando mi maquetación en Html, estilos CSS
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
   document.getElementById('logo').src = 'https://github.com/miguelramosalarcon/personal_challenges/blob/main/images/LogoMiguel2024.png?raw=true'; // Cambia la imagen del logo para modo oscuro
 } else {
-  document.getElementById('logo').src = 'https://github.com/miguelramosalarcon/personal_challenges/blob/main/images/LogoMiguel2024_light.png?raw=true'; // Cambia la imagen del logo para modo claro
+  document.getElementById('logo').src = 'https://github.com/miguelramosalarcon/personal_challenges/blob/main/images/LogoMiguel2024_white.png?raw=true'; // Cambia la imagen del logo para modo claro
 }
 </script>
 
