@@ -5,8 +5,9 @@
 Retos personal con miras a seguir mejorando mi maquetación en Html, estilos CSS y programación con Javascript.
 
 <div id="logo-container">
-  <img src="https://github.com/miguelramosalarcon/personal_challenges/blob/main/images/LogoMiguel2024_light.png?raw=true" alt="Logo" id="logo">
+  <img src="https://github.com/miguelramosalarcon/personal_challenges/blob/main/images/LogoMiguel2024_white.png?raw=true" alt="Logo" id="logo">
 </div>
+
 
 <script>
 // Detecta el modo de color preferido del usuario
