@@ -27,6 +27,11 @@ Esta es una solución del proyecto **Share Modal** como parte de auto reto de co
 ## Visión general
 UI Design Daily es un portal web que diariamente publica diseños y/o componentes web realizados en diversas plataformas como Figma, Sketch, Adobe XD, etc. 
 
+
+## Related
+Share Modal link Figma
+[UI Design proyect link](https://www.uidesigndaily.com/posts/share-modal)
+
 ### El desafío
 He tomado diariamente un diseño al azar realizado en Figma, Sketch, etc, y convertirlo en HTML, CSS y añadirle funcionalidades con Javascript.
 
