@@ -70,7 +70,7 @@ Diseño adaptado para cualquier tipo de pantalla del dispositivo:
 
 ### El proyecto se encuentra alojado en mi repositorio de GitHub:
 
-- [Pagina web](https://miguelramosalarcon.github.io/personal_challenges/day1590cardUIDesign/)
+- [Pagina web](https://miguelramosalarcon.github.io/personal_challenges/ProfileCardUIDesign/)
 - [Codigo fuente]()
 
 ## Proceso de trabajo
