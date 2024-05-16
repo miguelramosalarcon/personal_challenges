@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fuente */
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --bg-color: #ecf0fc;
+  --text-color: #120c35;
+  --color-white: #ffffff;
+
+  --font-merri: "Merriweather", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+}
+
+body {
+  background-color: var(--bg-color);
+  min-height: 100vh;
+  width: 100vw;
+  font-family: var(--font-merri);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile__container {
+  width: 500px;
+  height: 500px;
+  background-color: var(--color-white);
+  padding: 70px;
+  border-radius: 24px;
+  box-shadow: 0px 44px 88px #d2dbf5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.profile__image {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 10px solid #ecf0fc;
+}
+
+.username {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.description {
+  font-family: var(--font-poppins);
+  font-size: 18px;
+  font-weight: 500;
+  opacity: 0.7;
+}
+
+.skills__container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.status {
+  width: 100px;
+  height: 80px;
+  border: 2px solid #c2cdef;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.fa-face-smile,
+.fa-pen-to-square,
+.fa-ellipsis {
+  font-size: 20px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+:is(.fa-face-smile, .fa-pen-to-square, .fa-ellipsis):hover {
+  color: #c2cdef;
+}
+
+.menu {
+  opacity: 0;
+  width: 200px;
+  height: 310px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  background-color: var(--text-color);
+  padding: 20px;
+  border-radius: 24px;
+  position: absolute;
+  bottom: 0;
+  right: -135px;
+  transition: opacity 0.3s;
+}
+
+.menu__link {
+  width: 100%;
+  text-decoration: none;
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+  font-size: 12px;
+  font-weight: 400;
+  padding: 10px;
+  transition: all 0.5s;
+}
+
+.menu__link:hover,
+.menu__link:focus {
+  background-color: #2d2559;
+  border-radius: 4px;
+}
+
+@media screen and (min-width: 374px) and (max-width: 450px) {
+  .profile__container {
+    width: 370px;
+    padding: 30px;
+  }
+
+  .menu {
+    flex-direction: row;
+    width: 370px;
+    height: auto;
+    bottom: -100px;
+    right: 0;
+    flex-wrap: wrap;
+    flex-grow: 1;
+  }
+
+  .menu__link {
+    width: 50%;
+    font-size: 10px;
+  }
+}
