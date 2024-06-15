@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Miguel Ramos Alarcón" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="image/favicon.png" type="image/x-icon">
+    <title>Contact Page</title>
+</head>
+<body>
+
+    <div class="container">
+      <header class="header">
+        <h1>Interested in our business pricing?</h1>
+        <p>Fill out the form to view details and we’ll contact you as soon as possible.</p>
+      </header>
+      <form action="" class="form">
+        <div class="form__group">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" placeholder="Ethan Johnson">
+        </div>
+        <div class="form__group">
+          <label for="company_email">Company Email</label>
+          <input type="email" name="name" id="name" placeholder="ethan@johnson.com">
+        </div>
+        <div class="form__group">
+          <label for="company_size">Company Size</label>
+          <select name="company_size" id="company_size" required>
+            <option value="">50-100 employees</option>
+            <option value="">100-200 employees</option>
+          </select>
+        </div>
+        <div class="form__group">
+          <label for="subject">Subject</label>
+          <select name="subject" id="subject" required>
+            <option value="">Building Landing pages</option>
+            <option value="">Building forms</option>
+          </select>
+        </div>
+        <div class="form-group full__width message_contain">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="50-100 employees" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn full__width">Contact Sales</button>
+      </form>
+    </div>
+
+
+</body>
+</html>
