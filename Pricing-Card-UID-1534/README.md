@@ -44,7 +44,7 @@ Diseño adaptado para cualquier tipo de pantalla del dispositivo:
 <details>
     <summary>🖥️ Desktop version</summary>
 
-![](./screen/desktop.jpg
+![](./screen/desktop.jpg)
 </details>
 
 <details>
@@ -64,7 +64,7 @@ Diseño adaptado para cualquier tipo de pantalla del dispositivo:
 
 ### El proyecto se encuentra alojado en mi repositorio de GitHub:
 
-- [Pagina web](https://miguelramosalarcon.github.io/personal_challenges/Princing-Card-UID-1534/)
+- [Pagina web](https://miguelramosalarcon.github.io/personal_challenges/Pricing-Card-UID-1534)
 - [Codigo fuente]()
 -[Link FIGMA](https://www.uidesigndaily.com/posts/figma-pricing-card-day-1534)
 
