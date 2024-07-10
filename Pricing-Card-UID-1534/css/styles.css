@@ -1,0 +1,137 @@
+/* Importar fuente */
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/* Estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+/* Variables */
+:root {
+  --body-color: #F5F9FF;
+  --card-header-color: #133E61;
+  --card-body-color: #FFFFFF;
+  --card-link-color: #1142C1;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--body-color);
+  font-family: 'Mulish', sans-serif;
+}
+
+.card__container{
+  width: 500px;
+  height: 600px;
+  border-radius: 16px;
+  background-color:var(--card-body-color);
+  overflow: hidden;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.card__header{
+  background-color:var(--card-header-color);
+  height: 172px;
+  color: var(--card-body-color);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card__header .card__image{
+  width: 100px;
+  height: 100px;
+  
+}
+
+.card__header .title{
+  font-size: 24px;
+  margin-top: 60px;
+}
+
+.card__body{
+  padding: 40px 60px;
+  background-color: var(--card-body-color);
+}
+
+.card__body .title{
+  font-size: 32px;
+  font-weight: 600;
+  line-height:2;
+}
+
+.card__body .paragraph{
+  line-height:1.3;
+  font-size: 24px;
+}
+
+.card__body .link{
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: underline;
+  display: block;
+  margin-top: 20px;
+  color: var(--card-link-color);
+  transition: opacity .5s;
+}
+
+.card__body .link:hover,
+.card__footer .button:hover{
+  opacity:.7;
+}
+
+
+.card__footer{
+  padding: 0 60px;
+  background-color: var(--card-body-color);
+}
+.card__footer .button{
+  background-color: var(--card-header-color);
+  display: block; 
+  padding: 15px 25px;
+  border-radius: 66px;
+  color:var(--card-body-color);
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.autor{
+  font-size: 12px;
+  color:var(--card-header-color);
+  
+}
+
+.overlay{
+  background-color: #E9F1FD;
+  width: 500px;
+  height: 600px;
+  border-radius: 16px;
+  position: absolute;
+  z-index: -1;
+  transform: rotate(8deg);
+}
+
+@media screen and (max-width:430px) {
+  .card__container{
+    width: 90%;
+  }
+
+  .card__body, .card__footer{
+    padding: 20px;
+  }
+
+  .overlay{
+    display: none;
+  }
+}
