@@ -63,9 +63,9 @@ Diseño adaptado para cualquier tipo de pantalla del dispositivo:
 
 ### El proyecto se encuentra alojado en mi repositorio de GitHub:
 
-- [Pagina web](https://miguelramosalarcon.github.io/personal_challenges/Pricing-Card-UID-1534)
+- [Pagina web](https://miguelramosalarcon.github.io/personal_challenges/PortfolioWebSite)
 - [Codigo fuente]()
--[Link FIGMA](https://www.uidesigndaily.com/posts/figma-pricing-card-day-1534)
+-[Link](#)
 
 ## Proceso de trabajo
 Primero realice la maquetación de acuerdo a lo que se puede observar en la imagen de referencia, posteriormente se dio estilos CSS para pantallas de PC, no fue necesario darle estilos para movil porque se hizo desde un principio responsivo, con Grid.
